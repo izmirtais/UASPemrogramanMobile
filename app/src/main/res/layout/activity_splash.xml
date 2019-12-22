@@ -8,7 +8,7 @@
     tools:context=".activities.SplashActivity">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/logo"
         app:srcCompat="@drawable/logo"
         android:layout_width="500dp"
         android:layout_height="550dp"
