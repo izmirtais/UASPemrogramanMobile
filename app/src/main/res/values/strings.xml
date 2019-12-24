@@ -2,4 +2,5 @@
     <string name="app_name">UASMobile</string>
     <string name="forgot_password">forgot password</string>
     <string name="enter_password">Enter Your Password </string>
+    <string name="registrasi_form">Belum punya akun? Registrasi </string>
 </resources>
