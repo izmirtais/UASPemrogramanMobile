@@ -24,7 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="24dp"
-        android:fontFamily="@font/karla_regular"
+        android:fontFamily="@font/abel_regular"
         android:text="Welcome To a Nap Time"
         android:textColor="#313131"
         android:textSize="32sp"
