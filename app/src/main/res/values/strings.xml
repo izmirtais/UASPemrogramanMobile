@@ -6,4 +6,7 @@
     <string name="enter_email">Enter Your Email </string>
     <string name="enter_username">Enter Your Username </string>
     <string name="registrasi_form">Belum punya akun? Registrasi </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
