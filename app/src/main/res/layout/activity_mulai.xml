@@ -29,6 +29,15 @@
     </FrameLayout>
 
     <ImageView
+        android:id="@+id/logokecil"
+        android:layout_width="378dp"
+        android:layout_height="145dp"
+        app:layout_constraintBottom_toTopOf="@+id/meditasi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/logokecil" />
+
+    <ImageView
         android:id="@+id/imageView3"
         android:layout_width="506dp"
         android:layout_height="63dp"
@@ -36,26 +45,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/footer" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="48dp"
-        android:fontFamily="cursive"
-        android:text="Nap Time"
-        android:textSize="40sp"
-        app:layout_constraintBottom_toTopOf="@+id/meditasi"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
-        app:layout_constraintStart_toStartOf="parent" />
-
     <ImageView
         android:id="@+id/love"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginEnd="456dp"
         android:layout_marginRight="456dp"
-        android:onClick="handleLove"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/imageView3"
         app:layout_constraintStart_toStartOf="parent"
@@ -68,15 +63,13 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/rain"
         app:layout_constraintStart_toEndOf="@+id/love"
-        app:srcCompat="@drawable/meditasi"
-        android:onClick="handleMeditasi" />
+        app:srcCompat="@drawable/meditasi" />
 
     <ImageView
         android:id="@+id/alam"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginTop="682dp"
-        android:onClick="handleAlam"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/meditasi"
         app:layout_constraintStart_toEndOf="@+id/love"
@@ -86,7 +79,6 @@
         android:id="@+id/rain"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:onClick="handleRain"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/rain" />
@@ -98,7 +90,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/rain"
         app:layout_constraintStart_toEndOf="@+id/meditasi"
-        android:onClick="handleBird"
         app:srcCompat="@drawable/bird" />
 
     <ImageView
