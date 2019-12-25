@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void handleRegister(View view) {
-        Intent intent = new Intent(this, SplashActivity.class);
+        Intent intent = new Intent(this, RegistrasiActivity.class);
         startActivity(intent);
     }
 }
