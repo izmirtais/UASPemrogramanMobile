@@ -1,8 +1,6 @@
 package com.example.uaspemrogramanmobile.fragments;
 
-import android.content.Context;
 import android.media.MediaPlayer;
-import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
