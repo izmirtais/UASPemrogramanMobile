@@ -10,16 +10,15 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.uaspemrogramanmobile.R;
+import com.example.uaspemrogramanmobile.model.Security;
 import com.example.uaspemrogramanmobile.model.User;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
-import java.security.Security;
-
 public class RegistrasiActivity extends AppCompatActivity {
 
 
-    FirebaseAuth firebaseAuth;
+    FirebaseDatabase firebaseDatabase;
 
     EditText edtEmail, edtUsername, edtPassword, edtNewPassword ;
     Button btnreg;
@@ -31,7 +30,7 @@ public class RegistrasiActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registrasi);
 
-        firebaseAuth = FirebaseAuth.getInstance();
+        firebaseDatabase = FirebaseDatabase.getInstance();
 
         edtEmail = findViewById(R.id.edt_email);
         edtUsername = findViewById(R.id.edt_reset_username);
